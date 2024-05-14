@@ -4,7 +4,8 @@ import './App.css';
 import { RiHomeHeartFill } from "react-icons/ri";
 // import MyDiv from './03/MyDiv'; 
 // import MyList from './04/MyList';
-import Lotto from './05/Lotto';
+// 
+import './06/BoxOffice';
 
 function App() {
   return (
