@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 
 export default function TrafficMain() {
   const [tdata, setTdata] = useState([]) ;
+  const [c1, setC1] = useState() ;
   
   //fetch 함수로 데이터 가져오기
   const getFetchData = (url) => {
@@ -23,8 +24,20 @@ export default function TrafficMain() {
 
   //tdata가 변경이 되면 실행
   useEffect(() => {
+    if (tdata.length === 0) return ; 
+
     console.log("tdata=", tdata) ;
+    let tm = tdata.map(item => item['사고유형_대분류'])
+    tm = [...new Set(tm)] ;
+
+    setC1(tm);
   } , [tdata]);
+
+  //대분류 생성후 
+  useEffect(()=>{
+    if (!c1) return ;
+    console.log('c1=', c1) ;
+  }, [c1]);
 
   return (
     <div>
