@@ -7,7 +7,9 @@ import { RiHomeHeartFill } from "react-icons/ri";
 // import Lotto from './05/Lotto';
 // import BoxOffice from './06/BoxOffice';
 // import FoodMain from  './07/FoodMain' ;
-import TrafficMain from './08/TrafficMain';
+// import TrafficMain from './08/TrafficMain';
+// import TrafficNav from './08_1/TrafficNav';
+import Traffic from './08_1/Traffic';
 
 function App() {
   return (
@@ -26,10 +28,14 @@ function App() {
         {/* <Lotto /> */}
         {/* <BoxOffice /> */}
         {/* <FoodMain /> */}
-        <TrafficMain />
+        {/* <TrafficMain /> */}
+        {/* <TrafficNav /> */}
+        <Traffic />
+
+        
       </main>
       <footer className='flex justify-center items-center h-20 bg-black text-slate-100'>
-      ⓒ Kim Kyung Min , K-digital-7
+      ⓒ Ryu Eo Jin , K-Digital-7
       </footer>
     </div>
   );
