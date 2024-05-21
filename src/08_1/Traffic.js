@@ -53,6 +53,7 @@ export default function Traffic() {
     let tm = tdata.filter(item => item['사고유형_대분류'] === selC1) 
                   .map(item => item['사고유형_중분류'])
     setC2(tm) ;
+    setInfo('');
   } , [selC1]) ;
 
   // 중분류가 선택되면
@@ -76,7 +77,7 @@ export default function Traffic() {
                                 </div>
                                 <div className="flex justify-center items-center
                                                 h-10
-                                                 bg-lime-100  bg-lime-900 font-bold">
+                                                 bg-lime-100 font-bold">
                                   {parseInt(tm[item]).toLocaleString()}
                                 </div>
                              </div>
