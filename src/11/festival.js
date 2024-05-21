@@ -58,7 +58,7 @@ export default function Festival() {
       <form className="w-full flex justify-center items-center">
         <div className="w-4/5 grid grid-cols-1 md:grid-cols-2 my-5">
           <label htmlFor="op" 
-                 className="block text-xl font-bold
+                 className="text-xl font-bold
                             inline-flex justify-center items-center mr-5
                            text-gray-900 dark:text-white">
                  부산축제정보
