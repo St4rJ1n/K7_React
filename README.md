@@ -10,4 +10,4 @@
 # Tailwincss Table 참조
   + https://tw-elements.com/docs/standard/data/tables/
 # Vercel
-  + https://vercel.com/st4rj1ns-projects/k7-react
+  + https://k7-react-st4rj1ns-projects.vercel.app/
