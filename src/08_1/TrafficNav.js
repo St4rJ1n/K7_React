@@ -1,10 +1,10 @@
 import ButtonC from "../UI/ButtonC";
-import { useEffect, useState } from "react";
+// import { useState } from "react";
 
-export default function TrafficNav() {
-  const title = '대분류' ;
-  const c = ['차대사람', '차대차', '차량단독', '철길건널목'] ;
-  const [sel, setSel] = useState() ;
+export default function TrafficNav({title, c, sel, setSel}) {
+  // const title = '중분류' ;
+  // const c = ['횡단중', '차도통행중', '길가장자리구역통행중', '보도통행중', '기타'] ;
+  // const [sel, setSel] = useState() ;
   const cTag = c.map((item) => <ButtonC 
                                   caption = {item}
                                   bcolor = {sel === item ? 'orange' : 'blue'}
@@ -12,10 +12,9 @@ export default function TrafficNav() {
                                   handleClick = {() => handleClick(item)}
                                 />);  
 
-
   // 버튼이 눌러진 경우
   const handleClick = (item) => {
-    console.log(item)
+    // console.log(item)
     setSel(item) ;
   }
   return (
