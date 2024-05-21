@@ -78,13 +78,13 @@ export default function MyRef() {
         <input type="number" id="txt1" 
                ref={x1}
                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg
-                            text-center text-xl
+                            text-center
                            focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
         <span className='inline-flex justify-center items-center'>+</span>
         <input type="number" id="txt2"
                ref={x2}
                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg
-               text-center text-xl 
+               text-center
               focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
         <ButtonC 
           caption = " = "
@@ -94,7 +94,7 @@ export default function MyRef() {
         <input type="number" id="txt3" 
               ref={x3}
               className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg
-              text-center text-xl
+              text-center
              focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
               readOnly/>
       </div>

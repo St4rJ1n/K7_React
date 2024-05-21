@@ -21,27 +21,27 @@ function App() {
                          hover:bg-white hover:text-blue-600'>
               <Link to='/'>시계</Link>
             </li>
-            <li className='mx-2 p-2 rounded-md hover:bg-white
+            <li className='mx-2 p-2 rounded-md
                          hover:bg-white hover:text-blue-600'>
               <Link to='/lotto'>로또</Link>
             </li>
-            <li className='mx-2 p-2 rounded-md hover:bg-white
+            <li className='mx-2 p-2 rounded-md
                          hover:bg-white hover:text-blue-600'>
               <Link to='/box'>일일박스오피스</Link>
             </li>
-            <li className='mx-2 p-2 rounded-md hover:bg-white
+            <li className='mx-2 p-2 rounded-md
                          hover:bg-white hover:text-blue-600'>
               <Link to='/food'>푸드뱅크</Link>
             </li>
-            <li className='mx-2 p-2 rounded-md hover:bg-white
+            <li className='mx-2 p-2 rounded-md
                          hover:bg-white hover:text-blue-600'>
               <Link to='/traffic'>교통사고통계</Link>
             </li>
-            <li className='mx-2 p-2 rounded-md hover:bg-white
+            <li className='mx-2 p-2 rounded-md
                          hover:bg-white hover:text-blue-600'>
               <Link to='/photo'>관광사진</Link>
             </li>
-            <li className='mx-2 p-2 rounded-md hover:bg-white
+            <li className='mx-2 p-2 rounded-md
                          hover:bg-white hover:text-blue-600'>
               <Link to='/festival'>축제</Link>
             </li>
