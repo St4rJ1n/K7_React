@@ -9,3 +9,5 @@
   + UI : 공용 컴포넌트
 # Tailwincss Table 참조
   + https://tw-elements.com/docs/standard/data/tables/
+# Vercel
+  + https://vercel.com/st4rj1ns-projects/k7-react
