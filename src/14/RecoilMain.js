@@ -1,8 +1,9 @@
-import {RecoilRoot} from "recoil";
-import { RecoilValueReadOnly } from "recoil";
-
-export const AtomN = atom({
-    key : "AtomN",
-    default : 10
-    default = localStorage()
-});
+import { RecoilRoot } from "recoil";
+import RecoilDiv1 from "./RecoilDiv1" ;
+export default function RecoilMain() {
+  return (
+    <RecoilRoot>
+      <RecoilDiv1 />
+    </RecoilRoot>
+  )
+}
