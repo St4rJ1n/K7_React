@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Hello World",
+      "author": "John Doe"
+    },
+    {
+      "id": "2",
+      "title": "Learning JSON Server",
+      "author": "Jane Doe"
+    },
+    {
+      "id": "fda0",
+      "title": "New Post",
+      "author": "Author Name"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "This is a comment.",
+      "postId": 1
+    }
+  ],
+  "todos": [
+     
+  ]
+}
